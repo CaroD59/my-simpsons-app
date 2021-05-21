@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <div className='App'>
-      <button onClick={displayQuote}>Load a quote here</button>
+      <button onClick={displayQuote}>Load a quote here !</button>
       {quotes.map((quote) => {
         return <DisplayQuote {...quote} />;
       })}
